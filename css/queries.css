@@ -194,14 +194,17 @@
     html{
         font-size: 10px;
     }
+    header{
+        height: 50vh;
+    }
     header .avatar{
-        transform: scale(.8);
-        margin-left: 14%;
+        transform: scale(1.0));
+        margin-left: 20%;
         margin-top: 15%;
     }
     header .heading-main-box{
         margin-top: 0%;
-        margin-left: 2%;
+        margin-left: 10%;
     }
     header .heading-main-box h1{
         font-size: 110%;
@@ -217,13 +220,16 @@
         width: 100%;
     }
     .about-section{
-        height: 75vh;
+        height: 110vh;
     }
     .about-section h2{
         font-size: 160%;
     }
     .about-section ul{
         font-size: 120%;
+    }
+    .education-section{
+        height: 50vh;
     }
     .p-long{
         width: 200%;
@@ -235,20 +241,20 @@
         margin-top: 40px;
     }
     .work-section{
-        height: 120vh;
+        height: 150vh;
     }
     .work-section .product-box{
-        height: 50vh;
-        width: 180%;
-        transform: translateX(-20%);
+        height: 60vh;
+        width: 150%;
+        transform: translateX(-15%);
     }
     .project-section{
-        height: 120vh;
+        height: 130vh;
     }
     .project-section .product-box{
         height: 50vh;
-        width: 180%;
-        transform: translateX(-20%);
+        width: 150%;
+        transform: translateX(-15%);
     }
     .information{
         width: 200%;
@@ -257,13 +263,13 @@
     .social-icon{
         width: 150%;
         transform: scale(1.0);
-        transform: translateX(-25%);
+        transform: translateX(-20%);
     }
     .contact-section{
-        height: 80vh;
+        height: 100vh;
     }
     .contact-section form{
-        transform: translateX(-45%);
+        transform: translateX(-15%);
     }
     textarea{
         font-size: 10px;
